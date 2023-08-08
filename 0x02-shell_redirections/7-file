@@ -1,3 +1,3 @@
 #!/bin/bash
-cat << 'EOF' > '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'; Best School EOF
+echo -e 'Best School\n' > '*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
 
