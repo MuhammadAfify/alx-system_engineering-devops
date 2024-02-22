@@ -1,7 +1,8 @@
-o#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Displays the contents of the file
 #   Only displays the username, id, and user home directory path
 
-while read pwd; do
-  echo "$pwd" | cut -d ':' -f1,3,6
-done < "/etc/passwd"
+while read pwd
+do
+    echo "$pwd" | cut -d':' -f1,3,6
+done </etc/passwd
