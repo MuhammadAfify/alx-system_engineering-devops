@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # This script displays Hi on 9th line, Best School every other line
 
-count=1
+count=0
 while [ $count -lt 10 ]
 do
 	echo "Best School"
-	if [ $count -eq 9 ]
+	if [ $count -eq 8 ]
 	then
 		echo "Hi"
 	fi
