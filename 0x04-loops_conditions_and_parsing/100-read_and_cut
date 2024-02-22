@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Displays the contents of the file
-#   Only displays the username, id, and user home directory path
+# Only displays the username, id, and user home directory path
 
 while read pwd
 do
