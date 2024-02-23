@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# duplicate exercise 4, but use kill to stop process
+
+kill "$(ps -aux | pgrep -f 4-to_infinity_and_beyond)"
