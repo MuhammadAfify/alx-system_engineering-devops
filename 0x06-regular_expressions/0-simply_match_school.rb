@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 # regular expression match School
 
-puts ARGV[0].scan(/school/)
+puts ARGV[0].scan(/school/).join
