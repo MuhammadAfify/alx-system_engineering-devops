@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-# A regular expression match Zero or more t
+# A regular expression match one or more t
 
-puts ARGV[0].scan(/hbt*n/).join
+puts ARGV[0].scan(/hbt+n/).join
