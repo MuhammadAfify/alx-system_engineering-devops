@@ -1,0 +1,15 @@
+https://imgur.com/gallery/lYkganp
+-----------------------------------------------------
+The firewall:
+** Access Control, Packet Filtering, Network Address Translation (NAT) and Intrusion Prevention and Detection.
+Why is the traffic served over HTTPS?
+** Data Confidentiality, Data Integrity, Authentication and Trust, Protection Against Interception and Manipulation and Compliance and Regulatory Requirements.
+What monitoring is used for?
+** They analyse the performance and operations of the servers, measure the overall health, and alert the administrators if the servers are not performing as expected
+------------------------------------------------------
+*Why terminating SSL at the load balancer level is an issue?
+leave the traffic between the load balancer and the web servers unencrypted
+*Why having only one MySQL server capable of accepting writes is an issue?
+If the server experiences hardware failure, software errors, or other issues that render it unavailable, write operations to the database will fail, leading to service disruptions and potential data loss
+*Why having servers with all the same components (database, web server and application server) might be a problem?
+Servers with identical components may lack flexibility in adapting to different workload requirements or scaling needs, Managing a homogenous server environment can lead to increased complexity in configuration management, software updates, and troubleshooting.
