@@ -1,0 +1,20 @@
+https://imgur.com/gallery/qi9nYjc
+----------------------------------
+What is a server?
+** A server is a computer program or device that provides a service to another computer program and its user, also known as the client
+What is the role of the domain name?
+**uses to identify and map to websites and other Internet Protocol (IP)
+What type of DNS record www is in www.foobar.com?
+**A record
+What is the role of the web server?
+**store, process, and deliver requested information or webpages to end users.
+What is the role of the application server?
+**provide a dedicated environment for running and managing applications
+What is the server using to communicate with the computer of the user requesting the website?
+**HTTP
+----------------------------------
+the issues are with this infrastructure:
+SPOF:
+**If the single point of failure fails, it can lead to significant downtime for the entire system
+Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+**Loss of Revenue and Productivity
