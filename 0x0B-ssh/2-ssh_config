@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configure SSH connect to a server without typing a password.
+
+Host server
+	HostName 54.237.207.77
+	User ubuntu
+	IdentityFile ~/.ssh/school
+	PasswordAuthentication no
