@@ -3,9 +3,12 @@ file { 'Turn off passwd auth':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
   line   => '    PasswordAuthentication no',
-  }
-file_line { 'Declare identity file':
-  ensure => 'present',
-  path   => '/etc/ssh/ssh_config',
-  line   => '    IdentityFile ~/.ssh/school',
+    content => "\
+Host *
+  SendEnv LANG LC_*
+  HashKnownHosts yes
+  GSSAPIAuthentication yes
+  GSSAPIDelegateCredentials no
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no\n",
   }
