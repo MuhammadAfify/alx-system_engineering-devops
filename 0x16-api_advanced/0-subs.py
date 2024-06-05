@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Exporting csv files"""
+""" Exporting CSV files"""
 import json
 import requests
 import sys
